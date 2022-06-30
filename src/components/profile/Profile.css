@@ -1,0 +1,27 @@
+.profile {
+  background-color: #fff;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.profile_name {
+  margin-left: 15px;
+  line-height: 10px;
+  padding: 20px;
+}
+
+.profile_name .name {
+  text-transform: uppercase;
+  font-size: 17px;
+  font-weight: bold;
+}
+.profile_name .title {
+  text-transform: uppercase;
+  font-size: 17px;
+  color: rgb(70, 68, 68);
+}
+
+.profile_image img {
+  max-width: 100%;
+  margin-top: -10px;
+}

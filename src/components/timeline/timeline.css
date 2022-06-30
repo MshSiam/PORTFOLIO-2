@@ -1,0 +1,79 @@
+/* .timeline {
+  padding: 0 !important;
+} */
+
+/* header */
+/* .timeline .timeline_header {
+  padding-top: 7px;
+}
+
+.timeline .timeline_firstItem {
+  min-height: 8px !important;
+}
+
+.timeline .MuiTimelineContent-root {
+  min-height: 0;
+}
+.MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+} */
+
+/* .timeline .timeline_dot_header {
+  color: black !important;
+  background-color: #ffc500;
+  font-size: small !important;
+  padding: 10px !important;
+} */
+
+/* remaining items */
+
+/* .timeline .timeline_dot {
+  color: black !important;
+  background-color: #ffc500 !important;
+  font-size: small !important;
+  padding: 5px !important;
+}
+
+.timeline .MuiTimelineConnector-root {
+  background-color: green;
+}
+
+.timeline .timeline_dot_header > .MuiSvgIcon-root {
+  font-size: 20px;
+  color: darkslategray;
+} */
+
+/* .timeline .saparator_padding {
+  padding-left: 18px;
+} */
+
+/* starts here */
+.timeline {
+  margin-left: 15px !important;
+}
+
+.timeline .MuiTimelineItem-missingOppositeContent:before {
+  display: none;
+}
+
+.timeline .MuiTimelineItem-root {
+  display: flex;
+  position: relative;
+  list-style: none;
+  min-height: 70px;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.timeline .MuiTimelineDot-defaultPrimary {
+  color: #fff;
+  border-color: transparent;
+  background-color: #3f51b5;
+}
+
+.timeline .MuiTimelineDot-defaultGrey {
+  color: #fafafa;
+  background-color: red;
+}
